@@ -3383,20 +3383,20 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./GojoMedia/ko.jpg')},
                             hydratedFooterText: `┌─❖
 ┌─❖ مـرحبـاً 🤗 」
-└┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+└┬❖ 「 ${Miku BOT} 」
+││✑「مـعـك ميكو بوت👋」◣
+││✑「المالك يوريتشي 🤗」◣
 │└───────────────┈ ⳹
  「 مـعـلـومـات عـن الـبـوت 」
-│✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
-│✙「 رقـم الـمـالـك 」◣ : ${global.owner}
+│✙「 اسـم الـبـوت 」◣ : 「 ميكو ✨🤞🏻 」◣
+│✙「 رقـم الـمـالـك 」◣ : ${01020260148}
 │✙「عـدد الـمـسـتـخـدمـيـن」◣ : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
    │✑  「 اضـغـط عـلـى الـخـيـارات 🤗 」◣
    └───────────────┈ ⳹`,
                              hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '「 قناتي 」「📍」◣',
+                                    displayText: '「  قناتي تيك توك」「📌」◣',
                                     url: `${myweb}`
                                 }
                             }, {
